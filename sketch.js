@@ -29,12 +29,6 @@ function draw() {
   noFill();
   ellipse(100,350,40,30);
 
-  // if(player.x<150 && player.x>90 && player.y<380 && player.y>320){
-  //   text("NO CHEATING!!!",200,200);
-  //   player.x = 30;
-  //   player.y = 30;
-  //   score--;
-  // }
 
   player.x  = mouseX
   player.y = mouseY
